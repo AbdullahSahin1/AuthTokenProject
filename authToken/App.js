@@ -10,8 +10,8 @@ const Stack = createNativeStackNavigator();
 function NormalStack() {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="Login" component={LoginScreen} />
-      <Stack.Screen name="Signup" component={SignupScreen} />
+      <Stack.Screen name="Giriş" component={LoginScreen} />
+      <Stack.Screen name="Kayıt Ol" component={SignupScreen} />
     </Stack.Navigator>
   );
 }
